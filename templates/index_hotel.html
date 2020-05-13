@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <title>Hotel Recommendation</title>
+    <style>
+    form { width: 1350px; }
+    label { float: left; width: 150px; }
+    input[type=text] { float: left; width: 250px; }
+    .clear { clear: both; height: 0; line-height: 0; }
+    .floatright { float: right; }
+    </style>
+    </head>
+    <body>
+        <h1><center>Hotel Recommendation</h1>
+        <form action = "http://localhost:5000/home" method="POST">
+          <fieldset>
+            <legend><h3>Details</h3></legend>
+            <label for="country">country:</label>
+            <input type="text" id="country" name="country" required><br><br>
+            
+            <label for="city">city:</label>
+            <input type="text" id="city" name="city" required><br><br>
+            
+            <label for="guest_number">guest_number:</label>
+            <input type="text" id="guest_number" name="guest_number" required><br><br>
+            
+            <label for="room_amenities">room_amenities:</label>
+            <input type="text" id="room_amenities" name="room_amenities" required><br><br>
+            
+            <label for="number_of_hotels">number_of_hotels:</label>
+            <input type="text" id="number_of_hotels" name="number_of_hotels" required><br><br>
+            
+            <input type="submit" value="Get Hotel"> <br>
+        	<br><h3>Top Hotels From Given Details</h3>
+        	<textarea name="message" style="width:900px; height:350px;">{{hotellist}}</textarea>
+          </fieldset>
+        </form>
+    </body>
+</html>
