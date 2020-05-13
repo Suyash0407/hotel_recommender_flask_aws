@@ -13,7 +13,7 @@ To recommend hotel based in europe by taking into consideration user preferences
 * Just building models which delivers better results without taking into consideration production difficulties will result in project failure and will cause uncertain delays which will cost a fortune.
 * So to get a zest of all of this this project is done.
 
-#### Basic Work Flow Diagram Of Project:-
+### Basic Work Flow Diagram Of Project:-
 
 ![](images/hotel_recommendation_workflow.jpg)
 
