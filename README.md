@@ -3,7 +3,7 @@
 ### AMI:-
 * To build a simple recommender.
 * To understand the working of Flask as a web frame work for python.
-* To understand deployment of an application on AWS
+* To understand deployment of an application on AWS.
 
 ### Problem Statement:-
 To recommend hotel based in europe by taking into consideration user preferences.
