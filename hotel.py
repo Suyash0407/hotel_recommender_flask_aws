@@ -12,6 +12,7 @@ import nltk
 from nltk.stem import PorterStemmer
 from nltk.tokenize import sent_tokenize, word_tokenize
 import re
+from tabulate import tabulate
 nltk.download('punkt')
 # =============================================================================
 
@@ -253,6 +254,7 @@ def hotel_recommender(country,city,guest_number,room_amenities,number_of_hotels)
     
     # For number of hotels
     final = df_all_filters_applied[['hotelname','city','country','guests_no','roomtype','onsiterate']].head(number_of_hotels)
+    final = tabulate(final, tablefmt="pipe", headers="keys")
     return final 
 
 print('\n\n\t\tStarting the server please wait')  
