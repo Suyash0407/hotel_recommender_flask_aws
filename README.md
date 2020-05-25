@@ -27,5 +27,5 @@ To recommend hotel based in europe by taking into consideration user preferences
 * NLP
 * AWS
 
-### Hit the below like to check its working:-
+### Hit the below link to check its working:-
 http://18.208.167.94/home
