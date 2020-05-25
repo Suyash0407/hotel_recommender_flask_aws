@@ -26,3 +26,6 @@ To recommend hotel based in europe by taking into consideration user preferences
 * Flask 
 * NLP
 * AWS
+
+### Hit the below like to check its working:-
+http://18.208.167.94/home
