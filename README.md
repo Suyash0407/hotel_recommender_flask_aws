@@ -1,6 +1,6 @@
 #                                                 Hotel Recommendation System 
 
-### AMI:-
+### AIM:-
 * To build a simple recommender.
 * To understand the working of Flask as a web frame work for python.
 * To understand deployment of an application on AWS.
